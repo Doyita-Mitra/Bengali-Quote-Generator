@@ -1,117 +1,155 @@
 const localQuotes = [
   {
-    text: 'বিপদে পড় নহে ভয়; অভিজ্ঞতায় হবে জয়',
-    author: 'খনা',
+    text: 'You have to dream before your dreams can come true.',
+    author: 'APJ Abdul Kalam',
   },
   {
-    text: 'দাতার নারিকেল, বখিলের বাঁশ কমে না বাড়ে বারো মাস',
-    author: 'খনা',
+    text: 'A dream is not that which you see while sleeping, it is something that does not let you sleep.',
+    author: 'APJ Abdul Kalam',
   },
   {
-    text: 'পারেনা ল ফালাইতে উইঠা থাকে বিয়ান রাইতে',
-    author: 'খনা',
+    text: 'You should not give up and we should not allow the problem to defeat us.',
+    author: 'APJ Abdul Kalam',
   },
   {
-    text: 'সূর্যের চেয়ে বালি গরম, নদীর চেয়ে প্যাক ঠান্ডা',
-    author: 'খনা',
+    text: 'If you want to shine like a sun, first burn like a sun.',
+    author: 'APJ Abdul Kalam',
   },
   {
-    text: 'মেয়ে নষ্ট ঘাটে, ছেলে নষ্ট হাটে',
-    author: 'খনা',
+    text: "I was willing to accept what I couldn’t change.",
+    author: 'APJ Abdul Kalam',
   },
   {
-    text: 'পরের বাড়ির পিঠা খাইতে বড়ই মিঠা',
-    author: 'খনা',
+    text: 'All of us do not have equal talent. But, all of us have an equal opportunity to develop our talents.',
+    author: 'APJ Abdul Kalam',
   },
   {
-    text:
-      'ঘরের কোনে মরিচ গাছ, লাল মরিচ ধরে, তোমার কথা মনে হলে, চোখের পানি পড়ে',
-    author: 'খনা',
+    text: 'Man needs difficulties in life because they are necessary to enjoy success.',
+    author: 'APJ Abdul Kalam',
   },
   {
-    text: 'সোল বোয়ালের পোনা, যার যারটা তার তার কাছে সোনা',
-    author: 'খনা',
+    text: 'Don’t take rest after your first victory because if you fail in second, more lips are waiting to say that your first victory was just luck.',
+    author: 'APJ Abdul Kalam',
   },
   {
-    text: 'ছায়া ভালো ছাতার তল, বল ভালো নিজের বল',
-    author: 'খনা',
+    text: 'Let us sacrifice our today so that our children can have a better tomorrow.',
+    author: 'APJ Abdul Kalam',
   },
   {
-    text: 'যা করিবে বান্দা তাই পাইবে, সুই চুরি করিলে কুড়াল হারাইবে',
-    author: 'খনা',
+    text: 'I am not handsome but I can give my hand to someone who needs help… Because beauty is required in the heart, not in face.',
+    author: 'APJ Abdul Kalam',
   },
   {
-    text: 'তেলা মাথায় ঢালো তেল, শুকনো মাথায় ভাঙ্গ বেল',
-    author: 'খনা',
+    text: 'The best brains of the nation may be found on the last benches of the classroom.',
+    author: 'APJ Abdul Kalam',
   },
   {
-    text: 'ভাদরে করে কলা রোপন স্ববংশে মরিল রাবণ',
-    author: 'খনা',
+    text: 'Excellence happens not by accident. It is a process.',
+    author: 'APJ Abdul Kalam',
   },
   {
-    text: 'ভাত দেবার মুরোদ নাই, কিল দেবার গোসাঁই',
-    author: 'খনা',
+    text: 'Winners are not those who never fail but those who never quit.',
+    author: 'APJ Abdul Kalam',
   },
   {
-    text:
-      'চৈত্রে চালিতা, বৈশাখে নালিতা, আষাড়ে-ভাদ্রে তালের পিঠা, আর্শ্বিনে ওল, কার্তিকে কৈয়ের ঝুল',
-    author: 'খনা',
+    text: 'Two rules for a peaceful life: Depression in failure should never go to heart, and ego in success should never go to the brain.',
+    author: 'APJ Abdul Kalam',
   },
   {
-    text:
-      'ফুল তুলিয়া রুমাল দিলাম যতন করি রাখিও, আমার কথা মনে ফইল্লে রুমাল খুলি দেখিও',
-    author: 'খনা',
+    text: 'Luxury and Lies have huge maintenance costs. But Truth and Simplicity are self-maintained without any cost.',
+    author: 'APJ Abdul Kalam',
   },
   {
-    text: 'একেতে নাচুনী বুড়ি, তার উপর ঢোলের বারি',
-    author: 'খনা',
+    text: 'Dream, dream, dream. Dreams transform into thoughts and thoughts result in action.',
+    author: 'APJ Abdul Kalam',
   },
   {
-    text: 'মিললে মেলা, না মিললে একলা একলা ভালা',
-    author: 'খনা',
+    text: 'To succeed in your mission, you must have single-minded devotion to your goal.',
+    author: 'APJ Abdul Kalam',
   },
   {
-    text: 'না পাইয়া পাইছে ধন; বাপে পুতে কীর্তন',
-    author: 'খনা',
+    text: 'If you fail, never give up because Fail means “First Attempt In Learning',
+    author: 'APJ Abdul Kalam',
   },
   {
-    text: 'কাচায় না নোয়ালে বাশ, পাকলে করে ঠাস ঠাস',
-    author: 'খনা',
+    text: 'Creativity is seeing the same thing but thinking differently.',
+    author: 'APJ Abdul Kalam',
   },
   {
-    text: 'চোরের মার বড় গলা লাফ দিয়ে খায় গাছের কলা',
-    author: 'খনা',
+    text: 'Failure will never overtake me if my determination to succeed is strong enough.',
+    author: 'APJ Abdul Kalam',
   },
   {
-    text: 'ক্ষেত আর পুত, যত্ন বিনে যমদূত',
-    author: 'খনা',
+    text: 'Never be a prisoner of your past. It was just a lesson, not a life sentence.',
+    author: 'APJ Abdul Kalam',
   },
   {
-    text: 'জ্যৈষ্ঠে শুকো আষাঢ়ে ধারা, শস্যের ভার না সহে ধরা',
-    author: 'খনা',
+    text: 'If you salute your duty, you no need to salute anybody, but if you pollute your duty, you have to salute everybody.',
+    author: 'APJ Abdul Kalam',
   },
   {
-    text: 'যদি হয় সুজন এক পিড়িতে নয় জন। যদি হয় কুজন নয় পিড়িতে নয় জন',
-    author: 'খনা',
+    text: 'Empty pocket teaches you a million things in life, but full pocket spoils you in a million ways.',
+    author: 'APJ Abdul Kalam',
   },
   {
-    text: 'মেঘ করে রাত্রে হয় জল, তবে মাঠে যাওয়াই বিফল',
-    author: 'খনা',
+    text: 'Thinking should become your capital asset, no matter whatever ups and downs you come across in your life.',
+    author: 'APJ Abdul Kalam',
   },
   {
-    text: 'নিত্যি নিত্যি ফল খাও, বদ্যি বাড়ি নাহি যাও',
-    author: 'খনা',
+    text: 'When our signature changes to autograph, this marks the Success.',
+    author: 'APJ Abdul Kalam',
   },
   {
-    text: 'আম নিম জামের ডালে, দাঁত মাজো কুতুহলে',
-    author: 'খনা',
+    text: 'Take up one idea. Make that one idea your life - think of it, dream of it, live on that idea. Let the brain, muscles, nerves, every part of your body, be full of that idea, and just leave every other idea alone. This is the way to success.',
+    author: 'Swami Vivekananda',
   },
   {
-    text: 'যাও পাখি বলো তারে সে যেন ভুলেনা মোরে',
-    author: 'খনা',
+    text: 'Arise! Awake! and stop not until the goal is reached.',
+    author: 'Swami Vivekananda',
   },
   {
-    text: 'বাঁশ মরে ফুলতো, মানুষ মরে ভুলতো',
-    author: 'খনা',
+    text: 'Never think there is anything impossible for the soul. It is the greatest heresy to think so. If there is sin, this is the only sin; to say that you are weak, or others are weak.',
+    author: 'Swami Vivekananda',
   },
+  {
+    text: 'The world is the great gymnasium where we come to make ourselves strong.',
+    author: 'Swami Vivekananda',
+  },
+  {
+    text: 'That man has reached immortality who is disturbed by nothing material.',
+    author: 'Swami Vivekananda',
+  },
+  {
+    text: 'Our duty is to encourage every one in his struggle to live up to his own highest idea, and strive at the same time to make the ideal as near as possible to the Truth.',
+    author: 'Swami Vivekananda',
+  },
+  {
+    text: 'The whole secret of existence is to have no fear. Never fear what will become of you, depend on no one. Only the moment you reject all help are you freed.',
+    author: 'Swami Vivekananda',
+  },
+  {
+    text: 'If money help a man to do good to others, it is of some value; but if not, it is simply a mass of evil, and the sooner it is got rid of, the better.',
+    author: 'Swami Vivekananda',
+  },
+  {
+    text: 'The will is not free - it is a phenomenon bound by cause and effect - but there is something behind the will which is free.',
+    author: 'Swami Vivekananda',
+  },
+  {
+    text: 'Condemn none: if you can stretch out a helping hand, do so. If you cannot, fold your hands, bless your brothers, and let them go their own way.',
+    author: 'Swami Vivekananda',
+  },
+  {
+    text: 'When an idea exclusively occupies the mind, it is transformed into an actual physical or mental state.',
+    author: 'Swami Vivekananda',
+  },
+  {
+    text: 'External nature is only internal nature writ large.',
+    author: 'Swami Vivekananda',
+  },
+  {
+    text: 'All differences in this world are of degree, and not of kind, because oneness is the secret of everything.',
+    author: 'Swami Vivekananda',
+  },
+
 ];
