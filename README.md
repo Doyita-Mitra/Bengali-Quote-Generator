@@ -1,1 +1,1 @@
-# Bengali-Quote-Generator
+# Quote-Generator-Ind
